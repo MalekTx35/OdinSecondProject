@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url(pictures/algeriadesert.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin: 40px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+.row {
+    display: flex;
+    height: 85%;
+    align-items: center;
+}
+
+.column {
+    flex-grow: 80%;
+}
+
+h1 {
+    color: #fff;
+    font-size: 100px;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+button {
+    width: 160px;
+    color: black;
+    font-size: 14px;
+    padding: 11px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    width: 300px;
+    height: 340px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 12px 25px;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url(pictures/capital.png);
+
+}
+
+.card2 {
+    background-image: url(pictures/beach.webp);
+}
+
+.card3 {
+    background-image: url(pictures/forest.jpg);
+}
+
+.card4 {
+    background-image: url(pictures/desert.jpg);
+}
+
+.card:hover {
+    transform: translate(-10px);
+
+}
+
+h5 {
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+}
+
+.card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
